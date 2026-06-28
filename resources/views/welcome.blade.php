@@ -6,6 +6,9 @@
     <title>Inicio</title>
 </head>
 <body>
-    <h1>Inicio</h1>
+    <li><a href="/">Home</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/nosotros">Nosotros</a></li>
+    <li><a href="/contacto">Contacto</a></li>
 </body>
 </html>
