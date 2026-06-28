@@ -9,6 +9,6 @@
     <li><a href="/">Home</a></li>
     <li><a href="/blog">Blog</a></li>
     <li><a href="/nosotros">Nosotros</a></li>
-    <li><a href="/contacto">Contacto</a></li>
+    <li><a href="<?=route('contact')?>">Contacto</a></li> <!-- agregamos el nombre a la ruta-->
 </body>
 </html>

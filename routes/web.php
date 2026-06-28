@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
 
-Route::view('/contacto', 'contacto');
+Route::view('/contacto', 'contacto')->name('contact'); //para ponerle un nombre a esta ruta
 
 Route::view('/blog', 'blog');
 
