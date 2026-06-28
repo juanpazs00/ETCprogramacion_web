@@ -3,5 +3,6 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'Hola ETC';
+//    return view('welcome'); para retornar una vista dentro del archivo
 });
