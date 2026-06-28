@@ -2,10 +2,15 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::view('/', 'welcome');
 
-return ['aprendible' =>'.com'];
+Route::view('/contacto', 'contacto');
 
+Route::view('/blog', 'blog');
+
+Route::view('/nosotros', 'about');   
+
+
+// return ['aprendible' =>'.com']; para retornar un formato JSON
 //    return 'Hola ETC'; para retornar una cadena de caracteres basica
 //    return view('welcome'); para retornar una vista dentro del archivo
-});
